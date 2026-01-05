@@ -40,14 +40,23 @@ Wire Fraud: High amounts rounded to hundreds (e.g., 50000.00) sent to high-risk 
 Card Fraud: High velocity of small transactions or single large transactions from inconsistent locations.
 
 ISO Field,Description,ML Relevance
+
 EndToEndId,Unique Transaction ID,Key
+
 CreDtTm,Creation Date Time,"Velocity checks, Time-of-day analysis"
+
 Dbtr,Debtor (Sender) Name,User profiling
+
 DbtrAcct,Debtor Account (IBAN),History tracking
+
 Cdtr,Creditor (Receiver),Beneficiary analysis
+
 InstdAmt,Instructed Amount,Outlier detection
+
 InitgPty_IP,Initiating Party IP,Location consistency
+
 InitgPty_DeviceId,Initiating Party Device,Device fingerprinting
+
 Label_IsFraud,Target Variable (0/1),Target for Classification
 
 ## 💻 Usage
