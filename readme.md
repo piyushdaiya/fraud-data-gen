@@ -33,11 +33,14 @@ Unlike generic datasets, this generator structures data according to the **ISO 2
 ## 🧠 Fraud Logic
 The generator does not just randomise numbers; it creates specific patterns:
 
-ATO: A known user suddenly logs in from a new IP/Device and drains high amounts via Wire.
+**ATO:** A known user suddenly logs in from a new IP/Device and drains high amounts via Wire.
 
-Wire Fraud: High amounts rounded to hundreds (e.g., 50000.00) sent to high-risk jurisdictions.
+**Wire Fraud:** High amounts rounded to hundreds (e.g., 50000.00) sent to high-risk jurisdictions.
 
-Card Fraud: High velocity of small transactions or single large transactions from inconsistent locations.
+**Card Fraud:** High velocity of small transactions or single large transactions from inconsistent locations.
+
+
+## ISO Fields /ML Relevance
 
 **ISO Field,Description,ML Relevance**
 
