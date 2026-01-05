@@ -39,7 +39,7 @@ Wire Fraud: High amounts rounded to hundreds (e.g., 50000.00) sent to high-risk 
 
 Card Fraud: High velocity of small transactions or single large transactions from inconsistent locations.
 
-ISO Field,Description,ML Relevance
+**ISO Field,Description,ML Relevance**
 
 EndToEndId,Unique Transaction ID,Key
 
