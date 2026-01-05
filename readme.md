@@ -40,7 +40,7 @@ The generator does not just randomise numbers; it creates specific patterns:
 **Card Fraud:** High velocity of small transactions or single large transactions from inconsistent locations.
 
 
-## ISO Fields /ML Relevance
+## ISO Fields / ML Relevance
 
 **ISO Field,Description,ML Relevance**
 
