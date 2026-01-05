@@ -29,15 +29,8 @@ Unlike generic datasets, this generator structures data according to the **ISO 2
     pip install -r requirements.txt
     ```
 
-## 💻 Usage
 
-Run the script to generate a CSV file:
-
-```bash
-python iso20022_fraud_gen.py
-
-
-🧠 Fraud Logic
+## 🧠 Fraud Logic
 The generator does not just randomise numbers; it creates specific patterns:
 
 ATO: A known user suddenly logs in from a new IP/Device and drains high amounts via Wire.
@@ -56,3 +49,13 @@ InstdAmt,Instructed Amount,Outlier detection
 InitgPty_IP,Initiating Party IP,Location consistency
 InitgPty_DeviceId,Initiating Party Device,Device fingerprinting
 Label_IsFraud,Target Variable (0/1),Target for Classification
+
+## 💻 Usage
+
+Run the script to generate a CSV file:
+
+```bash
+python iso20022_fraud_gen.py
+
+
+
